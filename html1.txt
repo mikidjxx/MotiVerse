@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generatore di Consigli Motivazionali</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Consiglio Motivazionale del Giorno</h1>
+        <blockquote id="consiglio">Clicca il bottone per ricevere il tuo consiglio!</blockquote>
+        <button id="genera">Genera Consiglio</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

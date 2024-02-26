@@ -1,0 +1,14 @@
+document.getElementById("genera").addEventListener("click", function() {
+    const consigli = [
+        "Il successo è la somma di piccoli sforzi, ripetuti giorno dopo giorno.",
+        "La tua limitazione—it's only your imagination.",
+        "Push yourself, because no one else is going to do it for you.",
+        "Sometimes later becomes never. Do it now.",
+        "Great things never come from comfort zones.",
+        "Dream it. Wish it. Do it.",
+        "Success doesn’t just find you. You have to go out and get it.",
+        "The harder you work for something, the greater you’ll feel when you achieve it."
+    ];
+    const consiglio = consigli[Math.floor(Math.random() * consigli.length)];
+    document.getElementById("consiglio").innerText = consiglio;
+});
